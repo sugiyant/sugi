@@ -1,0 +1,12 @@
+title: My Blog on GitHub Pages
+email: giyanto77@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  A static blog built entirely using GitHub's online editor and Jekyll.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://sugiyant.github.io/sugi" # the base hostname & protocol for your site
+github_username: https://sugiyant.github.io # replace with your GitHub username
+
+# Theme configuration (we use the default minima theme here)
+theme: minima
+plugins:
+  - jekyll-feed
