@@ -29,12 +29,15 @@ github_username:  jekyll
 
 # Build settings
 theme: minima
-minima:
-  custom_css: assets/css/github_style.scss
+sass:
+  style: compressed
+
 plugins:
   - jekyll-feed
 
 # Exclude from processing.
+include:
+  - assets/css/style.scss
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
 # the internal "default list".

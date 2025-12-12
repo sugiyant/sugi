@@ -1,0 +1,72 @@
+// Import Minima's base styles
+@import "minima/base";
+
+// Custom styles to mimic GitHub's clean look
+$github-blue: #0969da;
+$github-green: #2da44e;
+$github-red: #cf222e;
+$github-gray-light: #f6f8fa;
+$github-gray-dark: #57606a;
+$github-text: #24292f;
+$github-border: #d0d7de;
+
+// Override Minima variables
+$brand-color: $github-blue;
+$text-color: $github-text;
+$background-color: #ffffff;
+$grey-color: $github-gray-dark;
+$grey-color-light: $github-gray-light;
+$link-color: $github-blue;
+
+// Custom styles
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  line-height: 1.5;
+}
+
+.site-header {
+  border-bottom: 1px solid $github-border;
+  background-color: $github-gray-light;
+}
+
+.site-title {
+  font-weight: 600;
+  color: $github-text !important;
+}
+
+.page-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.post-content {
+  h1, h2, h3, h4, h5, h6 {
+    border-bottom: 1px solid $github-border;
+    padding-bottom: 0.3em;
+  }
+  
+  code, pre {
+    background-color: $github-gray-light;
+    border: 1px solid $github-border;
+    border-radius: 6px;
+    padding: 0.2em 0.4em;
+  }
+  
+  pre > code {
+    padding: 0;
+    border: none;
+  }
+}
+
+.post-meta {
+  color: $github-gray-dark;
+}
+
+.footer-col-wrapper {
+  color: $github-gray-dark;
+}
+
+// Ensure links are the GitHub blue
+a {
+  color: $github-blue;
+}
